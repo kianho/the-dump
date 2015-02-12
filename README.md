@@ -1,4 +1,7 @@
-# Git
+# cheatsheets
+A collection of useful commands and workflows accumulated over the years, all consolidated in this README file.
+
+## Git
 These git commands are assumed for the examples this section:
 ```bash
 # Clone the repository to a local directory workspace.
@@ -6,7 +9,7 @@ git clone git@github.com:kianho/cheatsheets.git ./cheatsheets
 # or if you prefer using HTTPS:
 git clone https://github.com/kianho/cheatsheets.git ./cheatsheets
 ```
-## Sync a fork with an upstream repository
+### Sync a fork with an upstream repository
 An _upstream_ repository typically refers to the original remote repository
 from which a fork was created (into your github account). Assuming that you
 have cloned a fork of this repository into ```./cheatsheets-fork```, you can run the following
@@ -34,16 +37,16 @@ git merge upstream/master
 git push --all
 ```
 
-## git-flow
+### git-flow
 [git-flow](https://github.com/nvie/gitflow) is a suite of git extensions that enable
 developers to conform to the [git branching workflow proposed by Vincent Driessen](http://nvie.com/posts/a-successful-git-branching-model/).
 
-## References
+### References
 - http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 - http://stackoverflow.com/a/7244456
 
-# Anaconda & conda
-## conda environments
+## Anaconda & conda
+### conda environments
 ```bash
 # Create a new conda environment that uses python3.
 conda create -n py3k python=3.4.2
