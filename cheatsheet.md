@@ -1,5 +1,4 @@
 # Git
-Using this repository (kianho/cheatsheets) as the example.
 ```bash
 # Clone the repository to a local directory workspace.
 git clone git@github.com:kianho/cheatsheets.git ./cheatsheets
@@ -13,7 +12,13 @@ have cloned a fork of this repository into ```./cheatsheets-fork```, you can run
 commands to sync the state of this fork with the _upstream_ repository:
 ```bash
 cd ./cheatsheets-fork
+
+# Create a reference to the remote upstream repository, these are commonly
+# named "upstream".
 git remote add upstream git@github.com:kianho/cheatsheets.git
+
+# (Optional) View the current list of remotes associated with this repository.
+git remote -v
 
 # Fetch/download all the upstream branches.
 git fetch upstream
@@ -27,3 +32,6 @@ git merge upstream/master
 # When you are ready, push changes in all local branches to the forked github repository.
 git push --all
 ```
+
+### Further reading
+- http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
