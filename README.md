@@ -1,5 +1,5 @@
-# cheatsheets
-A collection of useful commands and workflows accumulated over the years, all consolidated in this README file.
+# the-dump
+A collection of useful commands, workflows, and information accumulated over the years coding and setting up experiments.
 
 ## Git
 These git commands are assumed for the examples this section:
