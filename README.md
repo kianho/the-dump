@@ -49,10 +49,14 @@ developers to conform to the [git branching workflow proposed by Vincent Driesse
 ### conda environments
 ```bash
 # Create a new conda environment that uses python3.
+# the "anaconda" component installs the default anaconda packages
 conda create -n py3k python=3.4.2 anaconda
 
 # ...and using python 2.7
-conda create -n py27 python=2.7.8
+conda create -n py27 python=2.7.8 anaconda
+
+# Delete a conda environment (follow the subsequent prompts).
+conda remote -n py27  --all
 
 # Display all the conda environments (root is the default).
 conda info -e
