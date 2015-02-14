@@ -56,7 +56,7 @@ conda create -n py3k python=3.4.2 anaconda
 conda create -n py27 python=2.7.8 anaconda
 
 # Delete a conda environment (follow the subsequent prompts).
-conda remote -n py27  --all
+conda remove -n py27  --all
 
 # Display all the conda environments (root is the default).
 conda info -e
