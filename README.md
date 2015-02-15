@@ -64,6 +64,8 @@ conda info -e
 # Activate the py3k environment.
 source activate py3k
 
-# Activate the root environment.
-source activate root
+# ... the py3k environment is now active (see below to deactivate it).
+
+# Deactivate the py3k environment.
+source deactivate
 ```
