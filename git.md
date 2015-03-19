@@ -1,3 +1,10 @@
+## Search the commit history for code snippets
+```
+git log -S <code snippet> --source all 
+git log -G <regexp> --source all # using regular expressions
+```
+- _use case_: searching for the commit log that affected a specific piece of code.
+- _source_: http://stackoverflow.com/questions/5816134/finding-a-git-commit-that-introduced-a-string-in-any-branch
 
 These git commands are assumed for the examples this section:
 ```bash
