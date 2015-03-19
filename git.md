@@ -4,7 +4,7 @@
 git log -S <code snippet> --source all 
 git log -G <regexp> --source all # using regular expressions
 ```
-- _use case_: searching for the commit log that affected a specific piece of code.
+- _use case_: searching for commits that affected a specific piece of code.
 
 ### Sync a fork with an upstream repository
 
