@@ -4,7 +4,8 @@ git log -S <code snippet> --source all
 git log -G <regexp> --source all # using regular expressions
 ```
 - _use case_: searching for the commit log that affected a specific piece of code.
-- _source_: http://stackoverflow.com/questions/5816134/finding-a-git-commit-that-introduced-a-string-in-any-branch
+
+([source](http://stackoverflow.com/questions/5816134/finding-a-git-commit-that-introduced-a-string-in-any-branch))
 
 ### Sync a fork with an upstream repository
 
