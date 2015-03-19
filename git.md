@@ -6,6 +6,8 @@ git log -G <regexp> --source all # using regular expressions
 - _use case_: searching for the commit log that affected a specific piece of code.
 - _source_: http://stackoverflow.com/questions/5816134/finding-a-git-commit-that-introduced-a-string-in-any-branch
 
+### Sync a fork with an upstream repository
+
 These git commands are assumed for the examples this section:
 ```bash
 # Clone the repository to a local directory workspace.
@@ -13,7 +15,7 @@ git clone git@github.com:kianho/the-dump.git ./the-dump.git
 # or if you prefer using HTTPS:
 git clone https://github.com/kianho/the-dump.git ./the-dump.git
 ```
-### Sync a fork with an upstream repository
+
 An _upstream_ repository typically refers to the original remote repository
 from which a fork was created (into your github account). Assuming that you
 have cloned a fork of this repository into ```./the-dump-fork```, you can run the following
