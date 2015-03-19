@@ -1,9 +1,11 @@
 # the-dump
 A collection of useful commands, workflows, and information accumulated over the years coding and setting up experiments.
 
-## Unit testing in Python
+## Testing in Python
 - http://pythontesting.net/framework/unittest/unittest-introduction/
   - Easy to follow introduction to unit testing in Python using the built-in `unittest` library.
+- http://stackoverflow.com/a/129522
+  - Test for thrown exceptions.
 
 ## Anaconda & conda
 ### conda environments
