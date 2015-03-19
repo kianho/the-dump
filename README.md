@@ -1,6 +1,10 @@
 # the-dump
 A collection of useful commands, workflows, and information accumulated over the years coding and setting up experiments.
 
+## Unit testing in Python
+- http://pythontesting.net/framework/unittest/unittest-introduction/
+  - Easy to follow introduction to unit testing in Python using the built-in `unittest` library.
+
 ## Anaconda & conda
 ### conda environments
 ```bash
