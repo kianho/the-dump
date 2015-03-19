@@ -2,21 +2,21 @@
 These git commands are assumed for the examples this section:
 ```bash
 # Clone the repository to a local directory workspace.
-git clone git@github.com:kianho/cheatsheets.git ./cheatsheets
+git clone git@github.com:kianho/the-dump.git ./the-dump.git
 # or if you prefer using HTTPS:
-git clone https://github.com/kianho/cheatsheets.git ./cheatsheets
+git clone https://github.com/kianho/the-dump.git ./the-dump.git
 ```
 ### Sync a fork with an upstream repository
 An _upstream_ repository typically refers to the original remote repository
 from which a fork was created (into your github account). Assuming that you
-have cloned a fork of this repository into ```./cheatsheets-fork```, you can run the following
+have cloned a fork of this repository into ```./the-dump-fork```, you can run the following
 commands to sync the state of this fork with the _upstream_ repository:
 ```bash
-cd ./cheatsheets-fork
+cd ./the-dump-fork
 
 # Create a reference to the remote upstream repository, these are commonly
 # named "upstream".
-git remote add upstream git@github.com:kianho/cheatsheets.git
+git remote add upstream git@github.com:kianho/the-dump.git
 
 # (Optional) View the current list of remotes associated with this repository.
 git remote -v
