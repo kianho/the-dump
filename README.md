@@ -81,6 +81,9 @@ git reflog <FILE> # for a single file.
 #   db2916d HEAD@{3}: pull --all: Fast-forward
 #   5425ae2 HEAD@{4}: clone: from git@github.com:kianho/the-dump.git
 
+# Print a previous version of a file to stdout.
+git show HEAD@{k}:<FILE>
+
 ```
 
 ### git-flow
