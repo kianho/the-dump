@@ -17,7 +17,7 @@ git log -G <regexp> --source all # using regular expressions
 ```
 - _use case_: searching for commits that affected a specific piece of code.
 
-#### Sync a fork with an upstream repository
+### Sync a fork with an upstream repository
 
 These git commands are assumed for the examples this section:
 ```bash
@@ -54,7 +54,7 @@ git merge upstream/master
 git push --all
 ```
 
-#### Viewing and accessing git history
+### Viewing and accessing git history
 
 ```bash
 
@@ -83,11 +83,11 @@ git reflog <FILE> # for a single file.
 
 ```
 
-#### git-flow
+### git-flow
 [git-flow](https://github.com/nvie/gitflow) is a suite of git extensions that enable
 developers to conform to the [git branching workflow proposed by Vincent Driessen](http://nvie.com/posts/a-successful-git-branching-model/).
 
-#### References
+### References
 - http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 - http://stackoverflow.com/a/7244456
 
