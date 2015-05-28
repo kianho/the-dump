@@ -73,6 +73,14 @@ git reset --hard
 git reflog
 git reflog <FILE> # for a single file.
 
+# For example:
+#   $ git reflog
+#   a385a53 HEAD@{0}: commit: Added git history commands.
+#   ac6e9f9 HEAD@{1}: commit: No longer using the git.md file.
+#   5804748 HEAD@{2}: commit: Merged the git.md contents into README.md.
+#   db2916d HEAD@{3}: pull --all: Fast-forward
+#   5425ae2 HEAD@{4}: clone: from git@github.com:kianho/the-dump.git
+
 ```
 
 #### git-flow
