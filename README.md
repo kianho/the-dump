@@ -54,6 +54,27 @@ git merge upstream/master
 git push --all
 ```
 
+#### Viewing and accessing git history
+
+```bash
+
+# Revert a file to its last committed state.
+git checkout -- <FILE>
+
+# Revert a file to a specific version.
+git checkout HEAD^ <FILE>  # previous version
+git checkout HEAD~k <FILE> # k versions ago
+git checkout HEAD@{k} <FILE> # a specific version
+
+# Revert the entire repository to its last committed state.
+git reset --hard
+
+# View entire undo history of the repository
+git reflog
+git reflog <FILE> # for a single file.
+
+```
+
 #### git-flow
 [git-flow](https://github.com/nvie/gitflow) is a suite of git extensions that enable
 developers to conform to the [git branching workflow proposed by Vincent Driessen](http://nvie.com/posts/a-successful-git-branching-model/).
