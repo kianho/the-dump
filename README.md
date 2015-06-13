@@ -126,5 +126,8 @@ source deactivate
 ### User management
 ```bash
 # Add a new user
-sudo add user <username>
+sudo adduser USERNAME
+
+# Add a user as a sudoer
+sudo adduser USERNAME sudo
 ```
