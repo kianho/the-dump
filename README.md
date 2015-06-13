@@ -120,3 +120,11 @@ source activate py3k
 # Deactivate the py3k environment.
 source deactivate
 ```
+
+## Linux / Ubuntu administration
+
+### User management
+```bash
+# Add a new user
+sudo add user <username>
+```
