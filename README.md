@@ -130,4 +130,7 @@ sudo adduser USERNAME
 
 # Add a user as a sudoer
 sudo adduser USERNAME sudo
+
+# Display the system information shown at login
+landscape-sysinfo
 ```
