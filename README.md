@@ -134,6 +134,7 @@ sudo adduser USERNAME sudo
 # Display the system information shown at login
 landscape-sysinfo
 ```
+
 ### Java installation (official Oracle distribution)
 ```bash
 sudo add-apt-repository ppa:webupd8team/java
@@ -142,4 +143,19 @@ sudo apt-get install oracle-java8-installer
 
 # Update JAVA_HOME
 export JAVA_HOME=/usr/lib/jvm/java-8-oracle/
+```
+
+### Scala installation
+```bash
+# remove existing scala installation
+sudo apt-get remove scala-library scala
+
+# download the .deb file
+wget http://downloads.lightbend.com/scala/2.12.1/scala-2.12.1.deb
+
+# install the .deb file
+sudo dpkg -i ./scala-2.12.1.deb
+
+# test the installation
+scala
 ```
