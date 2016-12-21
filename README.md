@@ -134,3 +134,9 @@ sudo adduser USERNAME sudo
 # Display the system information shown at login
 landscape-sysinfo
 ```
+### Java installation (official Oracle distribution)
+```bash
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+```
