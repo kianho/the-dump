@@ -143,6 +143,10 @@ sudo apt-get install oracle-java8-installer
 
 # Update JAVA_HOME
 export JAVA_HOME=/usr/lib/jvm/java-8-oracle/
+
+# This directory can be found using the following command:
+locate /release | grep java | xargs dirname
+
 ```
 
 ### Scala installation
