@@ -163,3 +163,4 @@ sudo dpkg -i ./scala-2.12.1.deb
 # test the installation
 scala
 ```
+- you may want to also install [`sbt`](https://twitter.github.io/scala_school/sbt.html)
