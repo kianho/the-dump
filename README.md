@@ -119,6 +119,9 @@ source activate py3k
 
 # Deactivate the py3k environment.
 source deactivate
+
+# Update anaconda distribution
+conda update anaconda
 ```
 
 ## Linux / Ubuntu administration
