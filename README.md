@@ -167,3 +167,6 @@ sudo dpkg -i ./scala-2.12.1.deb
 scala
 ```
 - you may want to also install [`sbt`](https://twitter.github.io/scala_school/sbt.html)
+
+### Sublime Text (3)
+* Install [Package Control](https://packagecontrol.io/installation)
