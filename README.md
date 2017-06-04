@@ -170,3 +170,7 @@ scala
 
 ### Sublime Text (3)
 * Install [Package Control](https://packagecontrol.io/installation)
+
+### BASH / Ubuntu on Windows
+* Running BASH on Ubuntu on Windows
+  * https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
